@@ -2,7 +2,7 @@ import { Text, View } from "react-native";
 import { StyleSheet } from "react-native";
 
 export default function Index() {
-  const style= StyleSheet.create({
+  const styles = StyleSheet.create({
   container: {
     backgroundColor: "#90caf9",
   },
@@ -28,7 +28,7 @@ export default function Index() {
   },
 });
   return (
-  <View>
+  <View style={styles.container}>
   <Text style={styles.largeText}>Typescript is great if you practice more</Text>
   <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
   <Text style={styles.smallText}>Entry Screen - Awesome</Text>
