@@ -2,7 +2,7 @@ import { Text, View } from "react-native";
 import { StyleSheet } from "react-native";
 
 export default function Index() {
-  const styles = StyleSheet.create({
+  const style= StyleSheet.create({
   container: {
     backgroundColor: "#90caf9",
   },
