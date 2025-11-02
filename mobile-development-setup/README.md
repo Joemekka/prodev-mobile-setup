@@ -1,50 +1,25 @@
-# Welcome to your Expo app 👋
+# How I installed Expo
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Step One:
 
-## Get started
+I visit: https://expo.dev/go and selected the latest version of expo sdk for my io mobile device
 
-1. Install dependencies
+## Step 2:
 
-   ```bash
-   npm install
-   ```
+I was redirected to appstore where i installed the app and sign up a new account
 
-2. Start the app
+# Steps 3:
 
-   ```bash
-   npx expo start
-   ```
+I Used To Scafold My RN App
 
-In the output, you'll find options to open the app in a
+## Step 4:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+I created a directory using the command promt `mkdir cd prodev-mobile-setup`
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Step 5:
 
-## Get a fresh project
+I runned the command promt `npx create-expo-app@latest` to install the expo dependency
 
-When you're ready, run:
+## Step 5:
 
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+After the packages installation was successful, i did `npx expo start` and waited the server to be created then scanned the QR code on the terminal and and the expo app automatically opened on my iphone
